@@ -1,0 +1,16 @@
+{
+  "name": "wabot_bailey",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A casual, agreeable WhatsApp bot using Baileys + OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.6.0",
+    "dotenv": "^17.0.1",
+    "fs-extra": "^11.3.0"
+  }
+}

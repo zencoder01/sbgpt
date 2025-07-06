@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+
+# Auth session files (don't commit these — they're sensitive and volatile)
+auth_info/
+
+# Threads / chat memory files (optional — if you don't want to persist this via Git)
+threads.json
+
+# Environment variable files
+.env
+
+# Log files
+*.log
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.tar
+
+# Optional: vscode / JetBrains / editor configs
+.vscode/
+.idea/
+
+# Build artifacts (if you ever compile stuff)
+dist/
+build/
